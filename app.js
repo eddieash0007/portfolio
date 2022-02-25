@@ -109,8 +109,8 @@ function showPortfolioButtons(e) {
     var width = boundingRect.width;
     var height = boundingRect.height;
     var overlay = document.querySelector('.project-overlay-content');
-    overlay.innerHTML = `<a href="${portfolioItem.dataset.projectDetails}" class="button button--primary button--small">Read details</a>
-    <a href="${portfolioItem.dataset.projectLink}" class="button button--primary button--ghost button--small" target="_blank">See project</a>`;
+    overlay.innerHTML = `
+    <a href="${portfolioItem.dataset.projectLink}" class="button button--primary button--ghost button--small" target="_blank">View project</a>`;
     overlay.classList.add('visible');
     overlay.setAttribute('style', `position: absolute; top: ${offsetTop}px; left: ${offsetLeft}px; height: ${height}px; width: ${width}px`);
 

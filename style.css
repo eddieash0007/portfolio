@@ -644,6 +644,7 @@ a:not(.button):not(.navigation-button):hover {
 }
 
 .portfolio-card__text {
+    /* text-align: justify; */
     margin: 0;
 }
 
